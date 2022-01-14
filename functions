@@ -1,4 +1,4 @@
--print calendar:
+def print calendar():
 
   import calendar
   def print_calendar():
@@ -6,6 +6,10 @@
   print(calendar.calendar(year))
   
   
-  -delete event:
+  def delete_event():
     events  = [1, 2]
     del event[:]
+    
+    
+  def show_events(events_num=None):
+    print (events_num)
