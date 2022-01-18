@@ -11,5 +11,6 @@ def print calendar():
     del event[:]
     
     
-  def show_events(events_num=None):
-    print (events_num)
+  def show_events():
+   for x in events
+      print (x)
