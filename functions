@@ -8,8 +8,7 @@ import datetime
   
   
   def delete_event():
-    events  = [1, 2]
-    del event[:]
+    events.remove
     
     
   def show_events(evebts):
