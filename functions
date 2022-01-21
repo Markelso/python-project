@@ -1,15 +1,15 @@
-def print calendar():
-import datetime
 
-  import calendar
-  def print_calendar():
+import datetime
+import calendar
+ 
+ def print_calendar():
   year = datetime.datetime.now()
   print(calendar.calendar(year.year))
   
   
-  def delete_event():
+  def delete_event(events):
     events.remove
     
     
-  def show_events(evebts):
+  def show_events(events):
       print (events)
